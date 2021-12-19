@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Chat-Hamel
+{% endblock %}
+
+{% block body %}
+<div class="container"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+        <ul class="navbar-nav">
+            <li>
+                <h4>Chat App</h4>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <a class="nav-link" href="https://github.com/hamelsmu/simple_chat_app/" style="color:grey">
+                See On 
+                <i class="fab fa-github"></i>
+            </a>
+        </ul>
+    </nav>
+    <br>
+        <div class="d-flex">  
+            <div class="m-auto">        
+                <form action="{{ url_for('index') }}" method="post">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="displayname", name="displayname", placeholder="Enter display name.">
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+</div>
+{% endblock %}
