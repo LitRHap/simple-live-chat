@@ -3,4 +3,4 @@
 terinspirasi dari https://cin.pw/chat
 
 # Link Live Chat
-* [`Tekan banh`](https://simple-live-chat-production.up.railway.app/)
+* [`Tekan banh`](https://justnino.xyz)
